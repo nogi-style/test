@@ -1,6 +1,6 @@
 # [トップページコーディングをしてわかった！コードレビュー]
 
-![html_cording_image](https://github.com/nogi-style/masahiro.onogi/blob/master/%E8%AA%B2%E9%A1%8C/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/images/html_cording_image.png)
+![html_cording_image](https://github.com/nogi-style/test/blob/master/images/html_cording_image.png)
 
 ---
 ## 目次
