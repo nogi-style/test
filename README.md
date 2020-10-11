@@ -19,7 +19,7 @@
 * [CSSのコーディング](#CSSのコーディング)
     - [変数宣言](#変数宣言)
     - [ダークモード](#ダークモード)
-    - [bodyタグのfont-sizeとrem指定](#bodyタグのfont-sizeとrem指定)
+    - [font-sizeとrem指定](#font-sizeとrem指定)
 * [終わりに](#終わりに)
 
 ---
