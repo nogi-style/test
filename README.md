@@ -9,7 +9,6 @@
 * [初めに](#初めに)
 * [HTMLのコーディング](#HTMLのコーディング)
   + [head](#head)
-    - [meta viewport](#meta-viewport)
     - [meta description](#meta-description)
     - [link icon](#link-icon)
   + [body](#body)
@@ -34,17 +33,6 @@
 ## HTMLのコーディング
 ---
 ### head
-
-#### meta viewport
-一つ目のmetaタグでは、ビューポート(ウェブページを表示するための領域のこと)を指定しました。
-```HTML :今回設定したviewport指定
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-```
-一般的なviewport指定は、
-```HTML :一般的なのviewport指定
-<meta name="viewport" content="width=device-width, initial-scale=1">
-```
-ですが、iOS9.0ではviewportの挙動に変更があり、width=device-widthの記述によってレンダリングするための仮想ブラウザ幅を調整するのではなく、ブラウザ側で縮小することでブラウザ幅を見た目に合わせるという挙動になっているらしく、shrink-to-fit=noを追記することで、その自動縮小が行われず、ブラウザ幅が調整されるようです。
 
 #### meta description
 直接SEO(検索エンジン最適化のこと)に影響はないみたいですが、ユーザーが検索した際、ページタイトルとともに検索結果に表示される要素なので設定しました。(適切な内容を設定することで、ユーザーのクリック率を上げる効果が期待できるため)
@@ -79,7 +67,7 @@ svg形式のメリットとして、ベクター形式なので、サイズが�
 ### body
 
 #### drawer.js
-今回、スマートフォン・タブレットなどのモバイルデバイス(ブラウザ横幅960px未満)からの閲覧時に、ドロワーメニューを表示するためにjQueryプラグインのdrawer.jsを用いました。各所、bodyタグ、headerタグ内の要素に特定のクラスを付与などしてハンバーガーメニューを実装しました。
+今回、スマートフォン・タブレットなどのモバイルデバイス(ブラウザ横幅960px未満)からの閲覧時に、ドロワーメニューを表示するためにjQueryプラグインのdrawer.jsを用いました。各所、bodyタグ、headerタグ内の要素に特定のクラスを付与などしてハンバーガーメニューを実装しました。(詳しい使い方はまだわかりません...)
 
 #### レスポンシブ
 SP表示でのみ適応されるsp_only、PCのみで適応されるpc_onlyというクラスを与え、表示、非表示をCSSのmediaクエリを設定し、レスポンシブ対応しました。
