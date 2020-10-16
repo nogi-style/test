@@ -150,7 +150,7 @@ PC表示では、10pxから20pxまでfont-sizeを可変で設定し、解像度�
 
 > サイトテスト
 
->> [モバイルフレンドリーテスト](https://search.google.com/test/mobile-friendly?utm_source=support.google.com%2Fwebmasters%2F&utm_medium=referral&utm_campaign=6155685&id=MI9C63nE8eJ2JzdPg7GcVw)
+>> [モバイルフレンドリーテスト](https://search.google.com/test/mobile-friendly?utm_source=support.google.com%2Fwebmasters%2F&utm_medium=referral&utm_campaign=6155685&id=o7n9kd8_Ao35jJ6e82V4mA)
 
 > 参考文献
 
